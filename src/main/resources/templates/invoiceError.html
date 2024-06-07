@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .error-message {
+            color: red;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-message" th:text="${error}"></div>
+</body>
+</html>
